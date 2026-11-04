@@ -1,0 +1,71 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Migration: local credentials, runtime data and generated files
+**/node_modules/
+**/vendor/
+**/.next*/
+**/dist/
+**/out/
+**/.cache/
+**/.local/
+**/.openai/
+**/backups/
+**/tmp/
+**/uploads/
+**/datos_usuario/
+**/entrega_privada/
+**/instalador/
+**/.env*
+!**/.env.example
+!**/.env.*.example
+!**/.env.local.example
+*.log
+*.sqlite*
+*.db
+*.db-*
+*.pem
+*.key
+*.pfx
+*.p12
+*.zip
+*.rar
+*.7z
+*.exe
+*.msi
+*.tsbuildinfo
+
+**/.codex-qa/
+**/.browser-profile/
+**/playwright-profile/

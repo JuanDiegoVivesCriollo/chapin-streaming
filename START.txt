@@ -1,0 +1,122 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║               🎬 LIKECHAPIN - STREAMING PLATFORM 🎬              ║
+║                                                                  ║
+║                    INICIO RÁPIDO - QUICK START                   ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+📋 PASOS PARA EMPEZAR:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1️⃣  ABRIR TERMINAL (PowerShell)
+   
+   Presiona: Windows + X → "Terminal" o "PowerShell"
+
+
+2️⃣  NAVEGAR A LA CARPETA DEL PROYECTO
+
+   cd "c:\Users\DIEGO\Downloads\Desktop\chapin"
+
+
+3️⃣  INSTALAR DEPENDENCIAS
+
+   npm install
+
+   ⏱️  Esto tomará 1-2 minutos...
+
+
+4️⃣  INICIAR SERVIDOR DE DESARROLLO
+
+   npm run dev
+
+   🌐 Luego abre: http://localhost:3000
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ PROYECTO INCLUYE:
+
+  ✓ Diseño moderno y responsive
+  ✓ Animaciones fluidas (Framer Motion)
+  ✓ SEO optimizado
+  ✓ 10 componentes completos
+  ✓ Exportación estática lista
+  ✓ Documentación completa
+
+
+📚 DOCUMENTACIÓN DISPONIBLE:
+
+  • README.md           → Visión general del proyecto
+  • INSTALL.md          → Guía detallada de instalación
+  • IMAGES.md           → Guía de imágenes necesarias
+  • PROJECT_SUMMARY.md  → Resumen completo
+
+
+⚙️ COMANDOS ÚTILES:
+
+  npm run dev      → Iniciar desarrollo (http://localhost:3000)
+  npm run build    → Compilar para producción
+  npm run start    → Iniciar servidor de producción
+
+
+🎨 PERSONALIZACIÓN PENDIENTE:
+
+  1. Agregar imágenes en: public/images/
+     (Ver IMAGES.md para detalles)
+
+  2. Configurar WhatsApp:
+     → Editar: components/WhatsAppButton.tsx
+     → Línea 6: const whatsappNumber = 'TU_NUMERO'
+
+  3. Actualizar enlaces de descarga:
+     → Editar: components/Descargas.tsx
+     → Líneas 8-13: URLs de las APKs
+
+  4. Personalizar contacto:
+     → Editar: components/Footer.tsx
+     → Email, teléfono, redes sociales
+
+
+🚀 DEPLOY:
+
+  Vercel (Recomendado):
+    1. git init
+    2. git add .
+    3. git commit -m "Initial commit"
+    4. Subir a GitHub
+    5. Conectar en vercel.com
+
+  Netlify / Otros:
+    1. npm run build
+    2. Subir carpeta "out/"
+
+
+💡 TIPS:
+
+  • El sitio funciona sin imágenes (muestra placeholders)
+  • Todos los componentes son editables
+  • Los colores se ajustan en tailwind.config.js
+  • El sitio es 100% responsive
+
+
+📞 NECESITAS AYUDA?
+
+  1. Lee README.md primero
+  2. Revisa INSTALL.md
+  3. Consulta comentarios en el código
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 TODO LISTO!
+
+   Sigue los 4 pasos de arriba para empezar.
+   
+   ¡Éxito con tu proyecto LikeChapin! 🎉
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Stack: Next.js 15 + TypeScript + Tailwind CSS + Framer Motion
+Tipo: Static Site Generation (SSG)
+Fecha: Noviembre 2024
